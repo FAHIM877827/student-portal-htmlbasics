@@ -3,19 +3,38 @@
     <head>
         <title> Student Detail </title>
         <link rel = "icon" href = "icon.jpg">
-
     </head>
-        <center>
+    <body>
+        <header>
+            <center>
             <h1>Students Details</h1>
-        </center>
+            </center>
+            <nav>
+                <a href = "home" > Home |</a>
+                <a href = "about">About |</a>
+                <a href = "login">Login |</a>
+            </nav>
+        </header>
         <hr>
+
+        <main>
+
+        <section>
         <p>Welcome to the Student Information Portal. This platform allows students to view their academic details such as attendance, marks, and rank. Please ensure that the information is used responsibly and report any incorrect data to the administration. Follow the portal guidelines to maintain proper usage and security of your account.
-</p>
+        </p></section>
+
+        <section>
         <a href = https://erp.sece.ac.in/impreserp > Click to see</a>
         <center>
-        <img src = "collegepic.webp" height="500px" width="750px">
+            <img src = "collegepic.webp" height="500px" width="750px" >
         </center>
+        </section>
+
+        <section>
         <h2>Upcomming Programmes</h2>
+        </section>
+
+        <section>
         <table border = '1'>
             <tr>
                 <th>S.NO</th>
@@ -38,20 +57,60 @@
                 <td>Ranking Assersment I </td>
             </tr>
         </table>
+        </section>
+
+        <section>
         <h2>College Rules Students must awar </h2>
         <ul>
             <li>Students must be in Formels</li>
             <li>In side campus must wear id-card</li>
             <li>trimmed beard and we groomed dressing</li>
         </ul>
-        <hr>
-        <center>
-        <h2>Further Details</h2><br>
-        </center>
-        <h3>Contact : 8778279101</h3>
-        <h3>g-mail:sece.ac.in</h3>
-    <body>
+        </section>
 
+        <section>
+            <h2>Result of II Semester</h2>
+            <form action = "action_page.php" >
+                <div>
+                    <label for = "name">Name:</label>
+                    <input type = "text" id = "name" placeholder="Spirulenna.S" required>
+                </div>
+            <br>
+                <div>
+                    <label for = "reg">Reg No:</label>
+                    <input type = "text"  id = "reg" placeholder="72282431050" required>
+                </div>
+            <br>
+                <div>
+                    <label for = "dep"> Department </label>
+                    <select id="dep" name = "dep">
+                        <option value = "cse">CSE</option>
+                        <option value = "eee">EEE</option>
+                        <option value = "mech">Mech</option>
+                    </select>
+                </div>
+            <br>
+                <div>
+                    <label>filled all</label>
+                    <input type = "checkbox" id = "fill" required>
+                </div>
+            <br>
+                <div>
+                    <label>Get Result</label>
+                    <input type = "submit" >
+                </div>
+        
+            </form>
+            <hr>
+        </section>
+        </main>
+
+
+        <footer>
+            <h3>Contact :</h3>
+            <h3>Ph -8778279101</h3>
+            <h3>g-mail:sece.ac.in</h3>
+        </footer>
     </body>
 
 </html>
