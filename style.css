@@ -1,0 +1,23 @@
+header{
+    font-family: 'Poppins',sans-serif;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+body{
+    background-color: gray;
+    margin: 0px; 
+}
+section{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+
+}
+.card{
+    margin:2px;
+    width: 200px;
+    color: aliceblue;
+    flex-basis: 23%;
+    flex-grow:1;
+}
