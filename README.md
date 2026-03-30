@@ -1,65 +1,26 @@
-# 🎓 Student Portal (HTML Project)
+# 🎓 Student Information Portal
 
-This is a simple student portal web page created as part of my learning in web development.  
-It displays basic student-related information like upcoming programs, rules, and important links.
+## 📌 Description
 
----
+This is a simple web page that displays student-related information such as attendance, marks, and upcoming programs.
 
-## 📌 About the Project
+## 🚀 Features
 
-I built this project to practice HTML fundamentals and understand how web pages are structured.  
-This is one of my initial projects as I start my journey in Full Stack Development.
-
----
+* View student details
+* Navigation bar (Home, About, Login)
+* Table for upcoming programmes
+* Form to check semester results
 
 ## 🛠️ Technologies Used
 
-- HTML
+* HTML5
+* Semantic Tags (header, nav, section, footer)
 
----
+## 🔄 Improvements
 
-## ✨ Features
+* Refactored code using semantic HTML
+* Better structure and readability
 
-- Displays student information
-- Table for upcoming programs
-- College rules section
-- Image and external link integration
+## 📎 Link
 
----
-
-## 📚 What I Learned
-
-- Basic structure of HTML (head, body)
-- Using tags like headings, paragraphs, tables, lists
-- Adding images and links
-- Organizing content in a web page
-
----
-
-## 🚧 Future Improvements
-
-- Add CSS for styling
-- Make the page responsive
-- Add forms (login / student input)
-- Convert into a full stack application
-
----
-
-## ▶️ How to Run
-
-1. Download or clone this repository
-2. Open `creating.html` in any browser
-
----
-
-## 🙋‍♂️ Author
-
-Fahim  
-2nd Year Student | Learning Full Stack Development
-
----
-
-## 📌 Note
-
-This is a beginner-level project and part of my learning process.  
-I will continue improving it as I learn more.
+(Add your GitHub Pages link if deployed)
